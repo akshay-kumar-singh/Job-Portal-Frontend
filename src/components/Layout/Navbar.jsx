@@ -27,7 +27,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className={isAuthorized ? "navbarShow" : "navbarHide"}>
+    // <nav className={isAuthorized ? "navbarShow" : "navbarHide"}>
       <div className="container">
         <div className="logo">
           <img src="/akki-logos__white.png" alt="logo" />
@@ -73,7 +73,7 @@ const Navbar = () => {
           <GiHamburgerMenu onClick={() => setShow(!show)} />
         </div>
       </div>
-    </nav>
+    // </nav>
   );
 };
 
